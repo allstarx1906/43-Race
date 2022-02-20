@@ -1,0 +1,480 @@
+@import url(https://www.1001fonts.com/metropolis-font.html);
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    position: relative;
+    background-color: white;
+    max-width: 1280px;
+    margin: auto;
+    
+}
+/* Header */
+.main .header{
+    position: relative;
+    display: flex;
+    background-color: black;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+}
+
+.main .header .logo{
+    position: relative;
+    padding-left: 240px ;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.header .logo img{
+    transform: translateY(50%);
+}
+.main .header .navigations{
+    position: relative;
+    display: flex;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    padding-right: 232px;
+}
+.header .navigations .navigation{
+    position: relative;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.header .navigations img{
+    position: relative;
+    width: 10px;
+    height: 5px;
+    padding-left: 2px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+@media (max-width: 360px){
+    .main .header .logo {
+        position: absolute;
+        padding-bottom: 20px;
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .main .navigations{
+        display: none;
+    }
+}
+
+/* box-welcome */
+
+.box-welcome{
+    position: relative;
+    display: flex;
+    background-image: url("/assets/img/BG1.png");
+    width: 100%;
+    height: 100%;
+}
+
+.box-welcome .welcome-content{
+    position: relative;
+    display: block;
+    padding-left: 268px;
+    padding-top: 130px;
+    width: 50%;
+}
+
+.box-welcome .welcome-content .title{
+    position: relative;
+    font-size: 42px;
+    line-height: 16px;
+    color: white;
+}
+
+.box-welcome .welcome-content .note{
+    position: relative;
+    padding-top: 28px;
+    font-size: 20px;
+    line-height: 38px;
+    color: white;
+}
+
+.welcome-btns{
+    position: relative;
+    padding-top: 71px;
+}
+
+.welcome-btns .welcome-btn{
+    width: 184px;
+    height: 44px;
+    background-color: white;
+    color: red;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 16px;
+}
+
+.welcome-btns .welcome-btn .text-btn{
+    position: relative;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.box-welcome .main-1{
+    position: relative;
+    padding-right: 246px;
+}
+
+.box-welcome .main-1 .img-group-47{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 364px;
+}
+
+.box-welcome .main-1 .img-group-48{
+    position: absolute;
+    margin-top: 286px;
+    margin-left: 8px;
+}
+
+.box-welcome .main-1 .img-group-49{
+    position: absolute;
+    margin-top: 313px;
+    margin-left: 324px;
+}
+
+.box-welcome .main-1 .img-group-50{
+    position: absolute;
+    margin-top: 146px;
+    margin-left: 65px;
+}
+
+
+/* explore fitness */
+
+.explore-fitness{
+    position: relative;
+    display: flex;
+    background-image: url("/assets/img/explore-fitness-bg.png");
+}
+
+.explore-fitness .explore-fitness-img{
+    position: relative;
+    margin-left: 64px;
+    margin-top: 13px;
+}
+
+.explore-fitness .explore-fitness-content{
+    position: relative;
+}
+
+.explore-fitness .explore-fitness-content .explore-fitness-title{
+    margin-top: 160px;
+    font-size: 36px;
+    line-height: 38px;  
+}
+
+.explore-fitness .explore-fitness-content .explore-fitness-btn{
+    top: 37px;
+    width: 184px;
+    height: 44px;
+    background: #EB3D49;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.explore-fitness .explore-fitness-content .explore-fitness-btn .text-btn{
+    padding-top: 12px;
+    padding-left: 23px;
+    width: 137px;
+    height: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/* Community-container */
+
+.community-container{
+    position: relative;
+    display: flex;
+    background-image: url("/assets/img/comunity-bg.png");
+}
+
+.community-container .community-content{
+    position: relative;
+    padding-left: 268px;
+    padding-top: 90px;
+}
+
+.community-container .community-content .community-title{
+    font-size: 36px;
+    line-height: 38px;
+    width: 350px;
+    color: #fff;
+}
+.community-title p{   
+    margin: 0px 0px 0px 0px;
+}
+
+.community-container .community-content .count-user{
+    padding-top: 16px;
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+}
+.community-container .community-content .counter{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+}
+
+.community-container .community-content .checkout-btn{
+    width: 184px;
+    height: 44px;
+    margin-top: 46px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.community-container .community-content .checkout-btn .text-btn{
+    font-weight: 800;
+    font-size: 12px;
+    padding-top: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #EB3D49;
+}
+
+.eclipse-img{
+    position: absolute;
+    width: 365px;
+    height: 367px;
+    left: 506px;
+    top: 18px;
+    mix-blend-mode: color-dodge;
+}
+
+.community-img{
+    position: relative;
+    height: 385px;
+    z-index: 99;
+}
+
+.community-img .community-img-item-52{
+    position: absolute;
+    width: 64px;
+    height: 59.43px;
+    top: 45.78px;
+    left: 373.82px;;
+    z-index: 999;
+}
+
+.community-img .community-img-item-53{
+    position: absolute;
+    width: 77.12px;
+    height: 71.61px;
+    top: 86.94px;
+    left: 302.01px;
+    z-index: 999;
+}
+
+/*  badges-medal-container */
+.badges-medal-container{
+    position: relative;
+    width: 1280px;
+    height: 572px;
+    background-image: url("/assets/img/unlock-badges-medal.png");
+}
+
+.badges-medal-container .badges-madal-title{
+    position: relative;
+    width: 558px;
+    height: 124px;
+    left: 361px;
+    top: 18px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* request demo */
+.request-demo-container{
+    position: relative;
+    display: flex;
+    background-image: url("/assets/img/request-demo-bg.png");
+    width: 1280px;
+    height: 539px;
+}
+
+.request-demo-container .request-demo-content{
+    margin-top: 123px;
+    margin-left: 269px;
+}
+
+.request-demo-container .request-demo-content .request-demo-title{
+    width: 301px;
+    height: 78px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 38px;  
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.request-demo-container .request-demo-content .request-demo-note{
+    width: 306px;
+    height: 40px;
+    margin-top: 16px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.request-demo-container .request-demo-content .request-demo-btn{
+    position: relative;
+    margin-top: 37px;
+    width: 184px;
+    height: 44px;
+    background: #EB3D49;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.request-demo-container .request-demo-btn .text-btn{
+    width: 137px;
+    height: 20px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-left: 23px;
+}
+
+.request-demo-brand-1{
+    position: relative;
+    margin-left: -78px;
+    margin-top: 43px;
+    margin-bottom: 104px;
+}
+
+.request-demo-eclipse-1{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 655px;
+    opacity: 0.8;
+}
+
+/* download-now */
+.download-now-container{
+    position: relative;
+    width: 1280px;
+    height: 266px;
+    background: #EB3D49;
+    align-items: center;
+}
+
+.download-now-container .download-now-title{
+    width: 100%;
+    height: 50px;
+    padding-top: 52px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.download-now-container .download-btn{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 21px;
+   justify-content: center;
+}
+
+.download-now-container .download-btn-android{
+    margin-left: 12px;
+}
+
+/* footer */
+.footer{
+    width: 1280px;
+    height: 162px;
+    background: #191919;
+}
+
+.footer-banner{
+    position: relative;
+    display: flex;
+    padding-top: 37px;
+    justify-content: center;
+}
+
+/* .logo-footer{
+    height: 42px;
+    width: 108.8px;
+} */
+
+.logo-footer img{
+    height: 42px;
+    width: 108.8px;
+}
+
+.footer-navigation{
+    display: flex;
+    margin-left: 23px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer .navigations{
+    padding-right: 26px;
+    text-transform: capitalize;
+}
+
+.social{
+    display: flex;
+    margin-left: 168px;
+}
+
+.social .icon{
+    margin-right: 17.6px;
+}
+
+.copy-right{
+    width: 200px;
+    height: 20px;
+    margin-left: 235px;
+    margin-top: 21px;
+    bottom: 42px;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8C8C8C;
+}
