@@ -3,12 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>42Race</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="main">
+        <div class="popup-login" id="popup-login">
+            <p>popuplogin</p>
+            <button class="close-popup" id="close-btn">Close</button>
+        </div>
         <div class="header">
             <div class="logo">
                 <img src="assets/img/Wordmark.png" alt="">
@@ -23,14 +28,14 @@
         <div class="box-welcome">
             <div class="welcome-content">
                 <div class="title">Welcome, Racer!</div>
-                <div class="note">Together we inspire millions to get fit! </div>
+                <div class="note">Together we inspire millions to get fit!</div>
                 <div class="welcome-btns">
                     <div class="explore-event-btn welcome-btn">
                         <div class="text-btn">
                             Explore Events
                         </div>
                     </div>
-                    <div class="login-sign-up-btn welcome-btn">
+                    <div class="login-sign-up-btn welcome-btn login-btn" id="login-btn">
                         <div class="text-btn">
                             Login/Sign up
                         </div>
@@ -44,6 +49,18 @@
                 <img class="img-group-50" src="assets/img/Group50.png" alt="">
                 <div class="bg-main-1">
                     <img class="img-main-1" src="/assets/img/Main1.png" alt="">
+                </div>
+            </div>
+            <div class="welcome-btns-mobile">
+                <div class="explore-event-btn welcome-btn">
+                    <div class="text-btn">
+                        Explore Events
+                    </div>
+                </div>
+                <div class="login-sign-up-btn welcome-btn login-btn">
+                    <div class="text-btn">
+                        Login/Sign up
+                    </div>
                 </div>
             </div>
         </div>
@@ -179,6 +196,7 @@
             </div>
         </div>
     </div>
+    <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
