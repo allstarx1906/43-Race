@@ -11,7 +11,6 @@ body,html{
     margin: 0px;
     padding: 0px;
 }
-
 .popup-login{
     position: absolute;
     display: none;
@@ -103,7 +102,7 @@ body,html{
 .box-welcome-container{
     width: 100%;
     height: 100%;
-    background-image: url("/assets/img/BG1.png");
+    background-image: url("");
 }
 .box-welcome{
     position: relative;
@@ -491,17 +490,7 @@ body,html{
 
 @media (max-width:991px){
     .badges-medal-container{
-        background-size:  auto 443px;
-        justify-content: center;
-        text-align: center;
-        max-width: 991px;
-        height: 443px;
-        width: 100%;
-    }
-
-    .badges-medal-container .badges-madal-title{
-        margin: auto;
-        left: auto ;
+        
     }
 }
 
@@ -564,64 +553,19 @@ body,html{
 }
 
 .request-demo-brand-1{
-    background-image: url(/assets/img/request-dame-eclipse.png);
-    background-repeat: no-repeat;
     position: relative;
-    /* margin-left: -78px; */
+    margin-left: -78px;
     margin-top: 43px;
     margin-bottom: 104px;
 }
 
-.request-demo-brand-1 img{ 
-    margin-left: -16%;
+.request-demo-eclipse-1{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 655px;
+    opacity: 0.8;
 }
 
-
-
-@media (max-width : 991px){
-    .request-demo-container{
-        flex-direction: column;
-        text-align: center;
-        max-width: 991px;
-        width: 100%;
-        height: fit-content;
-        background-size: cover;
-    }
-    .request-demo-container .request-demo-content{
-        display: block;
-        margin: auto;
-        margin-top: 22px;
-    }
-
-    .request-demo-container .request-demo-content .request-demo-title{
-        display: block  ;
-    }
-
-    .request-demo-container .request-demo-content .request-demo-note{
-        display: block;
-    }
-
-    .request-demo-container .request-demo-content .request-demo-btn{
-        margin: 37px auto 0 auto;
-    }
-
-    .request-demo-brand-1{
-        background-image: url(/assets/img/request-dame-eclipse.png);
-        background-position: 30px 26px;
-        background-size: 68%;
-        position: relative;
-        margin: 20px auto 104px auto;
-        width: 100%;
-        background-repeat: no-repeat;
-    }
-
-    .request-demo-brand-1 img{
-        position: relative;
-        width: 107%;
-        margin: unset;
-    }
-
-}
 /* download-now */
 .download-now-container{
     position: relative;
@@ -655,26 +599,6 @@ body,html{
     margin-left: 12px;
 }
 
-@media (max-width: 991px){
-    .download-now-container{
-        display: flex;
-        flex-direction: column;
-        max-width: 991px;
-        width: 100%;
-        height: auto;
-    }
-
-    .download-now-container .download-btn{
-        flex-direction: column;
-        margin: 20px auto 40px auto;
-        align-items: center;
-
-    }
-
-    .download-btn-android{
-        margin: 10px 0px 0px 0px;
-    }
-}
 /* footer */
 .footer{
     width: 1280px;
@@ -731,35 +655,4 @@ body,html{
     font-size: 14px;
     line-height: 20px;
     color: #8C8C8C;
-}
-
-@media (max-width: 991px){
-    .footer{
-        height: fit-content;
-        max-width: 992px;
-        height: auto;
-        width: 100%;
-    }
-    .footer-banner{
-        display: flex;
-        flex-direction:  column-reverse;
-        align-items: center;
-
-    }
-
-    .logo-footer{
-        display: none;
-    }
-    .social {
-        margin: auto;
-    }
-    .footer-navigation{
-        margin: auto;
-    }
-
-    .copy-right{
-        padding-bottom: 20px;
-        margin: auto;
-    }
-
 }
